@@ -168,6 +168,8 @@ pnpm dev
 
 - [Moru Docs](https://moru.io/docs)
 
+- [좀 더 완성된 예시 어플리케이션](https://github.com/moru-ai/maru)
+
 ---
 
 막히는 게 있으면 [Discord `#hackathon` 채널](https://discord.gg/g5M7rqfEPY)에서 편하게 질문해 주세요!
