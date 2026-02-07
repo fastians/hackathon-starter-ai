@@ -51,7 +51,7 @@ async function buildTemplate() {
   console.log(`Alias: ${buildInfo.alias}`);
   console.log();
   console.log("Agent code at: /app/agent.mts");
-  console.log("Credentials at: ~/.claude/.credentials.json");
+  console.log("Credentials at: /home/user/.claude/.credentials.json");
   console.log();
   console.log(`Usage:`);
   console.log(`  const sbx = await Sandbox.create('${templateAlias}')`);
