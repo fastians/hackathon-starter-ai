@@ -2,7 +2,7 @@
 
 # hackathon-starter
 
-AI Agent 해커톤 문서이자, [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/typescript)와 [Moru](https://github.com/moru-ai/moru) 클라우드 샌드박스를 활용한 AI 에이전트 스타터 레포입니다.
+AI Agent 해커톤 문서이자, [Claude Agent SDK](https://platform.claude.com/docs/ko/agent-sdk/overview)와 [Moru](https://github.com/moru-ai/moru) 클라우드 샌드박스를 활용한 AI 에이전트 스타터 레포입니다.
 
 ## 결과물
 
@@ -33,10 +33,9 @@ AI Agent 해커톤 문서이자, [Claude Agent SDK](https://platform.claude.com/
 
 ## 평가 기준
 
-1. **URL 접속 가능 여부** — 배포가 되어 있어야 합니다
-2. **창의성** — 어떤 에이전트를 만들었는지, 얼마나 재밌는지
-3. **커뮤니티 투표** — 참가자들이 직접 투표합니다
-4. **보너스** — Moru 샌드박스를 활용하면 가산점!
+1. **커뮤니티 투표** — 참가자들이 직접 투표합니다. 한 명당 5장의 투표권을 가집니다. 투표권 1장은 점수 1점입니다.
+2. **오거나이저 투표 5팀** — 오거나이저가 총 5팀에 투표합니다. 오거나이저 투표권은 1장이 5장의 효력을 가집니다.
+3. **URL 접속 가능 여부** — 웹 배포까지 완료한 팀은 추가점수 10점이 부여됩니다.
 
 ## 사전 준비 (스타터 레포 사용 시)
 
@@ -44,7 +43,7 @@ AI Agent 해커톤 문서이자, [Claude Agent SDK](https://platform.claude.com/
 
 1. **Moru API 키** — [Moru](https://github.com/moru-ai/moru)는 Claude Agent SDK를 클라우드에서 실행하기 위한 샌드박스입니다. 각 에이전트를 격리된 환경에서 돌릴 수 있어요. [moru.io/dashboard](https://moru.io/dashboard?tab=keys)에서 API 키를 발급해주세요. 무료입니다!
 
-> Claude Agent SDK를 웹에 배포하려면 Moru가 아니더라도 어떤 형태로든 샌드박스가 필요합니다. 자세한 내용은 [호스팅 문서](https://platform.claude.com/docs/ko/agent-sdk/hosting)와 [보안 배포 문서](https://platform.claude.com/docs/ko/agent-sdk/secure-deployment)를 참고하세요.
+> Claude Agent SDK를 웹에 배포하려면 Moru가 아니더라도 어떤 형태로든 샌드박스가 필요합니다. 자세한 내용은 [호스팅 문서](https://platform.claude.com/docs/ko/agent-sdk/hosting)와 [보안 배포 문서](https://platform.claude.com/docs/ko/agent-sdk/secure-deployment)를 참고해주세요.
 
 2. **Anthropic API 키** — 아직 없다면 [platform.claude.com](https://platform.claude.com/)에서 발급해주세요. 로컬 Claude의 `.credentials.json`을 사용할 수도 있지만 (Claude Code에 "find my credentials.json" 이라고 하면 찾아줍니다), 보안상 API 키를 권장합니다. API 키 비용은 사비로 부담하셔야 합니다.
 
@@ -162,6 +161,11 @@ pnpm dev
 ```
 
 [http://localhost:3000](http://localhost:3000)에서 확인하세요.
+
+
+## 참고자료
+[Claude Agent SDK Docs](https://platform.claude.com/docs/ko/agent-sdk/overview)
+[Moru Docs](https://moru.io/docs)
 
 ---
 
