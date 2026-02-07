@@ -1,6 +1,6 @@
 import Sandbox, { Volume } from "@moru-ai/core";
 
-const TEMPLATE_NAME = "moru-hackathon-agent";
+const TEMPLATE_NAME = "ai-hackathon-agent";
 
 /**
  * Create a new volume for a conversation
